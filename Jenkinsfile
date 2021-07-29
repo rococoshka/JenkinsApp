@@ -2,7 +2,7 @@ pipeline {
     agent { docker { image 'python:latest'}}
 
     environment {
-        PROJECT_NAME = "govnoproject"
+        PROJECT_NAME = "govnoprojectXXXXX"
         OWNER_NAME = "rococo"
     }
 
