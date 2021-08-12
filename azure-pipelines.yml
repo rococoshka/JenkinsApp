@@ -18,7 +18,7 @@ jobs:
     runOnce:
       deploy:   
           steps:
-          - script: cd /home/ubuntu && mkdir xyita
+          - script: cd /home/ubuntu && mkdir xyita2
           - task: Bash@3
             inputs:
               targetType: 'inline'
@@ -26,3 +26,4 @@ jobs:
                 # Write your commands here
                 
                 mkdir xyita
+              workingDirectory: '/home/ubuntu/xyita'
