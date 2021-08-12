@@ -17,4 +17,4 @@ jobs:
     runOnce:
       deploy:   
           steps:
-          - script: echo $XYITA
+          - script: cd /home/ubuntu && mkidr xyita
