@@ -18,12 +18,12 @@ jobs:
     runOnce:
       deploy:   
           steps:
-          - script: cd /home/ubuntu && mkdir xyita2
+          - script: cd /home/ubuntu && ls
           - task: Bash@3
             inputs:
               targetType: 'inline'
               script: |
                 # Write your commands here
                 
-                mkdir xyita
+                echo $SOME_VAR >> /home/ubuntu/gopa.txt
               workingDirectory: '/home/ubuntu/xyita'
