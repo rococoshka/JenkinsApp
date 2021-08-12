@@ -17,4 +17,4 @@ jobs:
     runOnce:
       deploy:   
           steps:
-          - script: echo $SOME_VAR
+          - script: echo $XYITA
