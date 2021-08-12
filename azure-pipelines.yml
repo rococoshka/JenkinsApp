@@ -15,5 +15,5 @@ steps:
 
 - script: |
     echo $SOME_VAR
-    echo See https://aka.ms/yaml
+    echo TT
   displayName: 'Run a multi-line script'
